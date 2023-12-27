@@ -1,0 +1,116 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-image: url('https://images.template.net/89448/free-wedding-cake-background-v03ou.jpg');
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main{
+    /* background-image: url('https://images.template.net/89448/free-wedding-cake-background-v03ou.jpg');
+    background-size: cover; */
+    width: 100%;
+   height: 200px;
+}
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+   height:50px;
+}
+.logo>img{
+    height: 130px;
+    width: 190px;
+}
+.input>input{
+    margin-top: 40px;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: #FFEBEE;
+    width: 700px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+}
+.searchbutt>span{
+    text-decoration: none;
+    font-size: 50px;
+    color: #ba4b3f;
+
+}
+.welcome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+.well>span,.come>span{
+    font-size: 25px;
+    color: #ba4b3f;
+    font-weight: bolder;
+}
+.cart{
+  margin-top: 45px;
+}
+.cart>a{
+    text-decoration: none;
+    font-size: 50px;
+    color: #ba4b3f;
+}
+.productBlock{
+    /* border: 1px solid black; */
+    width: 400px;
+    padding: 10px;
+    background-color: #ba4b3f;
+    border-radius: 10px;
+    padding: 10px;
+    height: 500px;
+}
+.proImg{
+    width: 400px;
+    height: 350px;
+    
+}
+.proName{
+    font-weight: bold;
+    font-size: xx-large;
+    color: aliceblue;
+}
+.proCost{
+    font-weight: bolder;
+    color: aliceblue;
+    font-size: x-large;
+}
+.addToCart{
+    width: 400px;
+    height: 35px;
+    background-color: rgb(208, 125, 125);
+    font-size: larger;
+    font-weight: bold;
+    border:none;
+    color: aliceblue;
+}
+.buyNow{
+    width: 400px;
+    height: 35px;
+    background-color: rgb(208, 125, 125);
+    font-size: larger;
+    font-weight: bold;
+    border:none;
+    margin-top: 7px;
+    color: aliceblue;
+}
+main{
+    padding:10px;
+    display: grid;
+    grid-template-rows: 600px 600px ;
+    grid-template-columns: 500px 500px 500px;
+    margin-left: 70px;
+    
+
+}

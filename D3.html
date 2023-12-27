@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>callback</title>
+</head>
+<body>
+    <h1>product list</h1>
+    <table border="1px solid black">
+        <tr>
+            <td>product name</td>
+            <td>product cost</td>
+            <td>add to cart</td>
+            <td>buy now</td>
+        </tr>
+        <tr>
+            <td id="producttea">tea</td>
+            <td id="costtea">10</td>
+            <td><button onclick="addToCart(`tea`)">add to cart</button></td>
+            <td><button onclick="buyNow(`tea`,printbill)">buy now</button></td>
+        </tr>
+        <tr>
+            <td id="productcoffee">coffee</td>
+            <td id="costcoffee">20</td>
+            <td><button onclick="addToCart(`coffee`)">add to cart</button></td>
+            <td><button onclick="buyNow(`coffee`,printbill)">buy now</button></td>
+        </tr>
+        <tr>
+            <td id="productmilk">milk</td>
+            <td id="costmilk">5</td>
+            <td><button onclick="addToCart(`milk`)">add to cart</button></td>
+            <td><button onclick="buyNow(`milk`,printbill)">buy now</button></td>
+        </tr>
+       
+    </table>
+    <span>
+        <h1>item:</h1><h3 id="finalitem"></h3>
+        <h1>bill amount:</h1><h3 id="finalamount"></h3>
+        
+    </span>
+<script src="./D3.js"></script>
+</body>
+</html>

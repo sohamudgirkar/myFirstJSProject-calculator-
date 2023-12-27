@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Local Storage Example</title>
+    <style>
+    .btn {
+    display: none;
+    }
+    </style>
+</head>
+<body>
+    <h1>hello</h1>
+    <button class="btn">hello</button>
+    <button onclick="changeColorFunction()">change color</button>
+    <script>
+        function changeColorFunction(){
+        document.getElementsByTagName("h1")[0].style.color = "red";
+        document.getElementsByClassName("btn")[0].style.display = "block";
+        }
+    </script>
+    
+</body>
+</html>

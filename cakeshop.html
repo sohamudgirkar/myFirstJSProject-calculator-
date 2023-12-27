@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cakeshop Login</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url('https://images.template.net/89448/free-wedding-cake-background-v03ou.jpg'); /* Replace 'cake_background.jpg' with your image file */
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .login-container {
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 40px;
+      border-radius: 8px;
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+      text-align: center;
+      max-width: 400px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    .login-container h2 {
+      margin-bottom: 30px;
+      color: #d85f4d;
+    }
+    .login-container input[type="text"],
+    .login-container input[type="password"],
+    .login-container input[type="submit"] {
+      width: 100%;
+      padding: 15px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+      border: 1px solid #d85f4d;
+      box-sizing: border-box;
+      font-size: 16px;
+    }
+    .login-container input[type="submit"] {
+      background-color: #d85f4d;
+      color: white;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    .login-container input[type="submit"]:hover {
+      background-color: #ba4b3f;
+    }
+    .login-container a {
+      color: #d85f4d;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .login-container a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+    <div><img src="WhatsApp Image 2023-11-27 at 16.02.52_9c2650a2.jpg"></div>
+  <div class="login-container">
+    <h2>Welcome to Cakeshop!</h2>
+    <div>
+      <input type="text" id="username" name="username" placeholder="Username" required>
+      <input type="password" id="password" name="password" placeholder="Password" required>
+      <span id="errorusername"></span><br>
+      <input type="submit" value="Login" onclick="validationpassword()">
+    </div>
+    <p>Don't have an account? <a href="#">Sign up here</a></p>
+  </div>
+  <script src="cakeshoplogin.js"></script>
+</body>
+</html>
